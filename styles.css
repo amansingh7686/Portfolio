@@ -1,0 +1,128 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('am.jpg'); /* Replace with your image URL or path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #1e090c;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffc107; /* Change link color on hover */
+}
+
+/* Main content styling */
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+ul {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+ul li {
+    list-style: disc;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Resume section styles */
+#resume {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 20px;
+}
+
+#resume a {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+#resume a:hover {
+    background-color: #0056b3;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+    font-size: 14px;
+}
